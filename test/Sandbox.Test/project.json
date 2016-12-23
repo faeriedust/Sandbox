@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Sandbox.Console",
+  "description": "Simple sandbox console app for messing around.",
+  "authors": [ "Elijah E. Kohrt" ],
+  "buildOptions": {
+    "debugType": "portable"
+  },
+
+  "dependencies": {
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "xunit": "2.2.0-beta4-build3444"
+  },
+
+  "testRunner": "xunit",
+
+  "frameworks": {
+    "net451": {
+      "imports": [
+        "dotnet5.4",
+        "portable-net451+win8"
+      ]
+    }
+  }
+}
