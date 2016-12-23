@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
-  "title": "Sandbox.Console",
+  "title": "Sandbox.ConsoleApp",
   "description": "Simple sandbox console app for messing around.",
   "authors": [ "Elijah E. Kohrt" ],
   "buildOptions": {

@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{99717A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exe", "exe", "{EA904366-22B7-4541-9919-EA1E005074E1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.Console", "exe\Sandbox.Console\Sandbox.Console.xproj", "{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.ConsoleApp", "exe\Sandbox.ConsoleApp\Sandbox.ConsoleApp.xproj", "{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3B3D93E7-305E-4C65-901B-0B13B7FE91F1}"
 EndProject
