@@ -7,7 +7,7 @@ using Sandbox.ConsoleApp.Configuration;
 namespace Sandbox.ConsoleApp {
   public class Program {
     public static void Main(string[] args) {
-      var config = SandboxConfiguration.GetConfigurationRoot();
+      var config = SandboxConfiguration.ConfigurationRoot;
       Console.WriteLine("Hello world!");
       Console.ReadLine();
     }

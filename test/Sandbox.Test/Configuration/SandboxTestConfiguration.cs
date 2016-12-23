@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using Microsoft.Extensions.Configuration;
 
-namespace Sandbox.ConsoleApp.Configuration {
-  public static class SandboxConfiguration {
+namespace Sandbox.Test.Configuration {
+  public static class SandboxTestConfiguration {
     private static IConfigurationRoot _config;
     public static IConfigurationRoot ConfigurationRoot {
       get {
@@ -14,6 +14,16 @@ namespace Sandbox.ConsoleApp.Configuration {
           .Build();
         }
         return _config;
+      }
+    }
+    private static TestSettings _testSettings;
+    public static TestSettings TestSettings {
+      get {
+        if (_testSettings == null) {
+          _testSettings = new TestSettings();
+          SandboxTestConfiguration.ConfigurationRoot.GetSection("TestSettings").Bind(_testSettings);
+        }
+        return _testSettings;
       }
     }
   }

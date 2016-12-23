@@ -3,6 +3,7 @@
 
 [Tt]ypings/
 launchSettings.json
+testOutput/
 
 # User-specific files
 *.suo
