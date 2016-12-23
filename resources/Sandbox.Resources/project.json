@@ -1,0 +1,13 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Sandbox.Resources",
+  "description": "Resource files for sandbox stuff.",
+  "authors": [ "Elijah E. Kohrt" ],
+  "dependencies": {
+    "NETStandard.Library": "1.6.1"
+  },
+
+  "frameworks": {
+    "netstandard1.0": {}
+  }
+}
