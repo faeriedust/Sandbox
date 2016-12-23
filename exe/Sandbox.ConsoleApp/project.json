@@ -4,9 +4,15 @@
   "description": "Simple sandbox console app for messing around.",
   "authors": [ "Elijah E. Kohrt" ],
   "buildOptions": {
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "copyToOutput": "appsettings.json"
   },
   "dependencies": {
+    "Microsoft.Extensions.Configuration": "1.1.0",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.1.0",
+    "Microsoft.Extensions.Configuration.Binder": "1.1.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.1"

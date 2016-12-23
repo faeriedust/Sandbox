@@ -3,7 +3,8 @@
   "description": "Sandbox class library for messing around",
   "authors": [ "Elijah E. Kohrt" ],
   "dependencies": {
-    "NETStandard.Library": "1.6.1"
+    "NETStandard.Library": "1.6.1",
+    "Newtonsoft.Json": "9.0.1"
   },
 
   "frameworks": {
