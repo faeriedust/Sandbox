@@ -1,7 +1,7 @@
 ﻿{
   "version": "1.0.0-*",
-  "title": "Sandbox.Console",
-  "description": "Simple sandbox console app for messing around.",
+  "title": "Sandbox.Test",
+  "description": "Tests for messing around and to test sandbox code",
   "authors": [ "Elijah E. Kohrt" ],
   "buildOptions": {
     "debugType": "portable"
