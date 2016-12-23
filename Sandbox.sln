@@ -9,8 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{99717A
 		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exe", "exe", "{EA904366-22B7-4541-9919-EA1E005074E1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.Console", "exe\Sandbox.Console\Sandbox.Console.xproj", "{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA7193FA-81D1-4B16-A30B-173A2C52D2DA} = {EA904366-22B7-4541-9919-EA1E005074E1}
 	EndGlobalSection
 EndGlobal
