@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Resource files for sandbox stuff.</Description>
+    <AssemblyTitle>Sandbox.Resources</AssemblyTitle>
+    <Authors>Elijah E. Kohrt</Authors>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Sandbox.Resources</AssemblyName>
+    <PackageId>Sandbox.Resources</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+
+</Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{99717A0C-11AF-4723-8398-F2CB6CE075D2}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,21 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{99717A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exe", "exe", "{EA904366-22B7-4541-9919-EA1E005074E1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.ConsoleApp", "exe\Sandbox.ConsoleApp\Sandbox.ConsoleApp.xproj", "{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.ConsoleApp", "exe\Sandbox.ConsoleApp\Sandbox.ConsoleApp.csproj", "{BA7193FA-81D1-4B16-A30B-173A2C52D2DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3B3D93E7-305E-4C65-901B-0B13B7FE91F1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.Test", "test\Sandbox.Test\Sandbox.Test.xproj", "{0EF73C04-32FC-4179-BC9C-6450956A123B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Test", "test\Sandbox.Test\Sandbox.Test.csproj", "{0EF73C04-32FC-4179-BC9C-6450956A123B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3121F03-5792-4B83-AE1A-635A4DCFDB98}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.Libraries", "src\Sandbox.Libraries\Sandbox.Libraries.xproj", "{AC8D11EB-0839-460F-8325-954ACAF0603E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Libraries", "src\Sandbox.Libraries\Sandbox.Libraries.csproj", "{AC8D11EB-0839-460F-8325-954ACAF0603E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{14043436-A242-4C25-AF5A-36EB342834E3}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.Resources", "resources\Sandbox.Resources\Sandbox.Resources.xproj", "{7C5B9367-3BD2-4057-B91E-1DB0AB6D0B8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Resources", "resources\Sandbox.Resources\Sandbox.Resources.csproj", "{7C5B9367-3BD2-4057-B91E-1DB0AB6D0B8A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sandbox.Playground", "src\Sandbox.Playground\Sandbox.Playground.xproj", "{2F2C1C6B-4D64-4377-8194-A30DA5899052}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Playground", "src\Sandbox.Playground\Sandbox.Playground.csproj", "{2F2C1C6B-4D64-4377-8194-A30DA5899052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

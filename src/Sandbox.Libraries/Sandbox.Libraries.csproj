@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Stuff I might actually end up using elsewhere</Description>
+    <AssemblyTitle>Sandbox.Libraries</AssemblyTitle>
+    <Authors>Elijah E. Kohrt</Authors>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Sandbox.Libraries</AssemblyName>
+    <PackageId>Sandbox.Libraries</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>
