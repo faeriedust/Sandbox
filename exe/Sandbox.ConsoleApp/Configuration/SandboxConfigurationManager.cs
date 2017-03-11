@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using Microsoft.Extensions.Configuration;
 using Sandbox.Playground.Configuration;
 
@@ -8,13 +9,17 @@ namespace Sandbox.ConsoleApp.Configuration {
     public static IConfigurationRoot ConfigurationRoot {
       get {
         if (_config == null) {
-          var directory = Directory.GetCurrentDirectory();
+          var configBasePath = Directory.GetCurrentDirectory();
+
+          if (!File.Exists(Path.Combine(configBasePath, "appsettings.json"))) {
+            configBasePath = AppContext.BaseDirectory;
+          }
 
           _config = new ConfigurationBuilder()
-          .SetBasePath(Directory.GetCurrentDirectory())
-          .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-          .AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true)
-          .Build();
+            .SetBasePath(configBasePath)
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true)
+            .Build();
         }
         return _config;
       }
