@@ -6,12 +6,14 @@ namespace Sandbox.Test {
   public class ConfigurationTests {
     [Fact]
     public void GetConfigurationTest() {
-      var config = TestConfigurationManager.ConfigurationRoot;
+      var manager = new TestConfigurationManager();
+      var config = manager.ConfigurationRoot;
       Assert.NotNull(config);
     }
     [Fact]
     public void GetTestSettingsTest() {
-      var settings = TestConfigurationManager.TestConfiguration;
+      var manager = new TestConfigurationManager();
+      var settings = manager.TestConfiguration;
       Assert.NotNull(settings);
       Assert.NotNull(settings.TestOutputDirectory);
     }
@@ -23,7 +25,8 @@ namespace Sandbox.Test {
     }
     [Fact]
     public void GetSandboxSettingsTest() {
-      var settings = TestConfigurationManager.SandboxConfiguration;
+      var manager = new TestConfigurationManager();
+      var settings = manager.SandboxConfiguration;
       Assert.NotNull(settings);
       Assert.NotEmpty(settings.HelloWorld);
     }

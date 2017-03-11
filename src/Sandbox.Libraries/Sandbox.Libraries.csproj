@@ -4,7 +4,7 @@
     <Description>Stuff I might actually end up using elsewhere</Description>
     <AssemblyTitle>Sandbox.Libraries</AssemblyTitle>
     <Authors>Elijah E. Kohrt</Authors>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netstandard1.4</TargetFramework>
     <AssemblyName>Sandbox.Libraries</AssemblyName>
     <PackageId>Sandbox.Libraries</PackageId>
     <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
@@ -12,6 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
   </ItemGroup>
 

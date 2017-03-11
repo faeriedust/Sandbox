@@ -8,7 +8,9 @@ using Sandbox.Test.Configuration;
 namespace Sandbox.Test.Helpers {
   public class TestHelpers {
     public static void WriteToTestOutput(string filename, string body) {
-      var path = $"{TestConfigurationManager.TestConfiguration.TestOutputDirectory}{filename}";
+      var configManager = new TestConfigurationManager();
+
+      var path = $"{configManager.TestConfiguration.TestOutputDirectory}{filename}";
       if (File.Exists(path)) {
         File.Delete(path);
       }

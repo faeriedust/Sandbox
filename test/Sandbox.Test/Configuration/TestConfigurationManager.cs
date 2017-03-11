@@ -1,52 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Microsoft.Extensions.Configuration;
 using Sandbox.Playground.Configuration;
 
 namespace Sandbox.Test.Configuration {
-  public static class TestConfigurationManager {
-    private static IConfigurationRoot _config;
-    public static IConfigurationRoot ConfigurationRoot {
-      get {
-        if (_config == null) {
+  public class TestConfigurationManager : SandboxConfigurationManager {
 
-          var configBasePath = Directory.GetCurrentDirectory();
-
-          if (!File.Exists(Path.Combine(configBasePath, "appsettings.json"))) {
-            configBasePath = AppContext.BaseDirectory;
-          }
-
-          _config = new ConfigurationBuilder()
-          .SetBasePath(configBasePath)
-          .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-          .AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true)
-          .AddJsonFile("testsettings.json", optional: true, reloadOnChange: true)
-          .AddJsonFile("testsettings.Local.json", optional: true, reloadOnChange: true)
-          .Build();
-        }
-        return _config;
-      }
+    public override void OnConfigurationBuilding(IConfigurationBuilder builder) {
+      base.OnConfigurationBuilding(builder);
+      builder.AddJsonFile("testsettings.json", optional: true, reloadOnChange: true);
+      builder.AddJsonFile("testsettings.Local.json", optional: true, reloadOnChange: true);
     }
-    private static TestConfiguration _testConfiguration;
-    public static TestConfiguration TestConfiguration {
+
+    private TestConfiguration _testConfiguration;
+    public TestConfiguration TestConfiguration {
       get {
         if (_testConfiguration == null) {
           _testConfiguration = new TestConfiguration();
-          TestConfigurationManager.ConfigurationRoot.GetSection("TestSettings").Bind(_testConfiguration);
+          this.ConfigurationRoot.GetSection("TestSettings").Bind(_testConfiguration);
         }
         return _testConfiguration;
-      }
-    }
-
-
-    private static SandboxConfiguration _sandboxConfiguration;
-    public static SandboxConfiguration SandboxConfiguration {
-      get {
-        if (_sandboxConfiguration == null) {
-          _sandboxConfiguration = new SandboxConfiguration();
-          ConfigurationRoot.GetSection("Sandbox").Bind(_sandboxConfiguration);
-        }
-        return _sandboxConfiguration;
       }
     }
   }
