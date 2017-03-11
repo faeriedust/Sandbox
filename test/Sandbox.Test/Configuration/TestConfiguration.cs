@@ -1,5 +1,5 @@
 ﻿namespace Sandbox.Test.Configuration {
-  public class TestSettings {
+  public class TestConfiguration {
     public string TestOutputDirectory { get; set; }
   }
 }

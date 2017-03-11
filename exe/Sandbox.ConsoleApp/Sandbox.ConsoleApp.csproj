@@ -4,7 +4,7 @@
     <Description>Simple sandbox console app for messing around.</Description>
     <AssemblyTitle>Sandbox.ConsoleApp</AssemblyTitle>
     <Authors>Elijah E. Kohrt</Authors>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>Sandbox.ConsoleApp</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>Sandbox.ConsoleApp</PackageId>
@@ -13,14 +13,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="appsettings.json">
+    <Content Include="..\..\.config\appsettings.json" Link="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
-
+  
   <ItemGroup>
     <ProjectReference Include="..\..\src\Sandbox.Libraries\Sandbox.Libraries.csproj" />
     <ProjectReference Include="..\..\resources\Sandbox.Resources\Sandbox.Resources.csproj" />
+    <ProjectReference Include="..\..\src\Sandbox.Playground\Sandbox.Playground.csproj" />
   </ItemGroup>
 
   <ItemGroup>
