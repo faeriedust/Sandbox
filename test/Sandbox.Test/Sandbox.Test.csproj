@@ -4,7 +4,7 @@
     <Description>Tests for messing around and to test sandbox code</Description>
     <AssemblyTitle>Sandbox.Test</AssemblyTitle>
     <Authors>Elijah E. Kohrt</Authors>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
     <DebugType>portable</DebugType>
     <AssemblyName>Sandbox.Test</AssemblyName>
     <PackageId>Sandbox.Test</PackageId>
