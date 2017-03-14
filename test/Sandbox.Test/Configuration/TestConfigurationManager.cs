@@ -18,8 +18,7 @@ namespace Sandbox.Test.Configuration {
     public TestConfiguration TestConfiguration {
       get {
         if (_testConfiguration == null) {
-          _testConfiguration = new TestConfiguration();
-          this.ConfigurationRoot.GetSection("TestSettings").Bind(_testConfiguration);
+          _testConfiguration = new TestConfiguration(this.ConfigurationRoot);
         }
         return _testConfiguration;
       }

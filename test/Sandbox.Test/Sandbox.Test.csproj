@@ -4,7 +4,7 @@
     <Description>Tests for messing around and to test sandbox code</Description>
     <AssemblyTitle>Sandbox.Test</AssemblyTitle>
     <Authors>Elijah E. Kohrt</Authors>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>net462</TargetFramework>
     <DebugType>portable</DebugType>
     <AssemblyName>Sandbox.Test</AssemblyName>
     <PackageId>Sandbox.Test</PackageId>
@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0-preview-20170106-08" />
+    <PackageReference Include="SimpleInjector" Version="3.3.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0-beta5-build1225" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="1.1.1" />

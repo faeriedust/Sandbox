@@ -1,5 +1,6 @@
 ﻿{
   "TestSettings": {
-    "TestOutputDirectory": "..\\testOutput\\"
+    "TestOutputDirectory": "..\\testOutput\\",
+    "SomeBool": "true"
   }
 }
