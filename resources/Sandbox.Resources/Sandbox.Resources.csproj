@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Resource files for sandbox stuff.</Description>
+    <AssemblyTitle>Sandbox.Resources</AssemblyTitle>
+    <Authors>Elijah E. Kohrt</Authors>
+    <TargetFramework>net451</TargetFramework>
+    <AssemblyName>Sandbox.Resources</AssemblyName>
+    <PackageId>Sandbox.Resources</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
