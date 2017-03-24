@@ -10,8 +10,6 @@
   },
 
   "frameworks": {
-    "netstandard1.0": {
-      "imports": "dnxcore50"
-    }
+    "net451": {}
   }
 }
