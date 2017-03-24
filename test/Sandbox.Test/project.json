@@ -10,13 +10,13 @@
 
   "dependencies": {
     "dotnet-test-xunit": "2.2.0-preview2-build1029",
-    "Microsoft.Extensions.Configuration": "1.1.0",
-    "Microsoft.Extensions.Configuration.Abstractions": "1.1.0",
-    "Microsoft.Extensions.Configuration.Binder": "1.1.0",
-    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
-    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Microsoft.Extensions.Configuration": "1.1.1",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.1.1",
+    "Microsoft.Extensions.Configuration.Binder": "1.1.1",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.1",
+    "Microsoft.Extensions.Configuration.Json": "1.1.1",
     "Sandbox.Libraries": "1.0.0-*",
-    "xunit": "2.2.0-beta4-build3444"
+    "xunit": "2.2.0"
   },
 
   "testRunner": "xunit",

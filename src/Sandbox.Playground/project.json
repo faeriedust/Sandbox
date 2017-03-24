@@ -1,11 +1,11 @@
-﻿{
+{
   "version": "1.0.0-*",
   "title": "Sandbox.Playground",
   "description": "Sandbox class library for messing around",
   "authors": [ "Elijah E. Kohrt" ],
   "dependencies": {
     "NETStandard.Library": "1.6.1",
-    "Newtonsoft.Json": "9.0.1",
+    "Newtonsoft.Json": "10.0.1",
     "Sandbox.Libraries": "1.0.0-*"
   },
 

@@ -8,11 +8,11 @@
     "copyToOutput": "appsettings.json"
   },
   "dependencies": {
-    "Microsoft.Extensions.Configuration": "1.1.0",
-    "Microsoft.Extensions.Configuration.Abstractions": "1.1.0",
-    "Microsoft.Extensions.Configuration.Binder": "1.1.0",
-    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
-    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Microsoft.Extensions.Configuration": "1.1.1",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.1.1",
+    "Microsoft.Extensions.Configuration.Binder": "1.1.1",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.1",
+    "Microsoft.Extensions.Configuration.Json": "1.1.1",
     "Sandbox.Libraries": "1.0.0-*",
     "Sandbox.Resources": "1.0.0-*"
   },
