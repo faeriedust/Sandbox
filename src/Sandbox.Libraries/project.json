@@ -4,7 +4,7 @@
   "description": "Stuff I might actually end up using elsewhere",
   "authors": [ "Elijah E. Kohrt" ],
   "dependencies": {
-    "Newtonsoft.Json": "10.0.1"
+    "Newtonsoft.Json": "9.0.1"
   },
 
   "frameworks": {
