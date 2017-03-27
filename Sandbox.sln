@@ -26,6 +26,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Playground", "src\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Test", "test\Sandbox.Test\Sandbox.Test.csproj", "{40A7F855-A4B9-4EEA-A3C1-70336325C4C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.WPF", "exe\Sandbox.WPF\Sandbox.WPF.csproj", "{F3F771EE-3E56-4185-BDE4-4129EEDE7602}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{40A7F855-A4B9-4EEA-A3C1-70336325C4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A7F855-A4B9-4EEA-A3C1-70336325C4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A7F855-A4B9-4EEA-A3C1-70336325C4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F771EE-3E56-4185-BDE4-4129EEDE7602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F771EE-3E56-4185-BDE4-4129EEDE7602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F771EE-3E56-4185-BDE4-4129EEDE7602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F771EE-3E56-4185-BDE4-4129EEDE7602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{A57313AB-6FC2-4078-B636-1AB7D30F4B1F} = {84A97D89-25CA-43ED-A26A-2E076820C3DF}
 		{D8A595EC-5156-4E8F-83DC-1241A00158B6} = {84A97D89-25CA-43ED-A26A-2E076820C3DF}
 		{40A7F855-A4B9-4EEA-A3C1-70336325C4C6} = {1D42BC82-ACE7-45DC-92E4-150DCEE32D2D}
+		{F3F771EE-3E56-4185-BDE4-4129EEDE7602} = {C4299BD3-0857-428A-AF45-64B7B3B6BE55}
 	EndGlobalSection
 EndGlobal
