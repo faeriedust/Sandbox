@@ -16,9 +16,4 @@ namespace Sandbox.Test {
       return Thread.CurrentThread.ManagedThreadId;
     }
   }
-
-  public class BaseClass {
-    private virtual async Task<int> {
-      }
-  }
 }
